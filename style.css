@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400&family=Ubuntu:wght@300;400&display=swap');
+
+h1{
+  font-family: 'Ubuntu', sans-serif;
+  color:#f8f9fa;
+  font-size: 50px;
+}
+
+h2{
+  font-family: 'Ubuntu', sans-serif;
+  color:#f8f9fae7;
+}
+
+p{
+  font-family: 'Roboto Slab', serif;
+  color:#f8f9fa;
+}
+
+#btn-primary{
+  font-family: 'Ubuntu', sans-serif;
+  color:#f18629;
+  background-color: ghostwhite;
+  text-decoration: none;
+  padding: 8px;
+  border-radius: 5px;
+  display:inline-block;
+  box-shadow: 2px 4px 10px #f8f2d2c2;
+}
+
+a:hover{
+  text-decoration: none;
+  color: red;
+}
+
+img{
+  width: 300px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.container{
+  box-shadow: 2px 4px 10px #e2c835;
+  border-radius: 5px;
+  width: 500px;   /* This sets the width */
+  margin: 20 auto; /* This automatically sets left/right margins */
+  padding: 18px;
+}
+
+body{
+  background-color: #ff7900;
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+  padding: 0px 20px;
+  font-size: 40px;
+  list-style: none;
+}
+
+
+ul{
+  padding:0%;
+}
+
+a{
+  color: white;
+}
+
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+  p{
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+  h1{
+    font-size: 38px;
+  }
+  h2{
+    font-size: 24px;
+  }
+}
